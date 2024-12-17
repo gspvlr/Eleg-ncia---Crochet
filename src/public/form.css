@@ -1,0 +1,124 @@
+
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.forms h2{
+  color: #CD7F32;
+}
+.forms h3{
+  margin-bottom: 40px;
+  
+}
+
+form {
+    width: 100%;
+    max-width: 30rem;
+  }
+  
+  label,
+  input,
+  textarea {
+    display: block;
+  }
+
+  .button-form{
+    display: block;
+  }
+  
+  input,
+  textarea
+   {
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+  }
+
+  .button-form{
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 1rem;
+    color: rgb(0, 0, 0);
+    background: #E5B4C7;
+    border: 0.125rem solid transparent;
+    border-radius: 1.125rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input:hover,
+  input:focus,
+  textarea:hover,
+  textarea:focus {
+    outline: none;
+    border-color: #997474;
+    box-shadow: 0 0 0 0.3125rem #7c5358;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    color: #000000;
+  }
+  
+  textarea {
+    min-height: 12.5rem;
+    resize: vertical;
+  }
+  
+  .button-form {
+    border: none;
+    border-radius: 99px;
+    color: white;
+    background: #E5B4C7;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .button-form:hover,
+  .button-form:focus {
+    outline: none;
+    background: #1c70d3;
+  }
+  
+  .button-form:disabled {
+    cursor: not-allowed;
+    background: #555b69;
+  }
+  
+  .success,
+  .error {
+    text-align: center;
+  }
+  
+  .success {
+    color: greenyellow;
+  }
+  
+  .error {
+    color: tomato;
+  }
+
+@media screen and (max-width: 600px) {
+  .forms{
+   width: 100%;
+  }
+  .forms h2{
+    color: #CD7F32;
+    font-family: "Varela Round", sans-serif;
+  }
+  .forms h3{
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+} 
